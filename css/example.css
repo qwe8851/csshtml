@@ -1,70 +1,31 @@
-/* div, input, textarea{
-    box-sizing: border-box;
-}
-
-body{
-    margin: 0px;
-}
-
-.form-background{
-    background-color: rgb(50, 50, 50);
-    padding: 30px;
-}
-
-.form-white{
-    background-color: white;
-    padding: 30px;
-    width: 50%;
-    height: 600px;
-    margin: auto;
-}
-
-.w-50{
-    width: 50%;
-    float: left;
-    padding : 10px;
-}
-
-.w-100{
-    width: 100%;
-    padding: 10px;
-}
-
-.form-input{
-    width: 100%;
-    padding: 10px;
-    font-size: 20px;
+/* td, th{
     border: 1px solid black;
-    border-radius: 5px;
-}
-
-.yellow-button{
-    padding: 10px;
-    display: block;
-    margin-left: auto;
-    width: 100px;
-    background-color: yellow;
 } */
 
-div, form{
-    clear: both;
-}
-
-.content{
+.cart-background{
     width: 100%;
-    height: 100%;
-    background-color :rgb(170, 203, 216);
-    padding-top: 100px;
-    padding-bottom: 100px;
+    background-color :#c2d3de;
+    padding: 30px;
 }
 
-.content2{
-    width: 70%;
-    height: 400px;
-    min-width: 600px;
-    background-color: yellow;
-    display: block;
+.cart-table{
+    width: 100%;
+    max-width: 700px;
     margin: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.cart-table td, .cart-table th{
+    padding: 15px;
+    border-bottom: 1px solid #c2d3de;
+}
+.cart-table td:nth-child(2){
+    width: 400px;
+}
+
+.cell-long{
+    width: 700px;
 }
 
 .title{
@@ -78,45 +39,7 @@ div, form{
     float: left;
 }
 
-.table{
-    width: 100%;
-    height: 250px;
-    background-color: orange;
-}
 
-
-/*
-.font{
-    width: 50%;
-    height: 70px;
-    line-height: 70px;
-    color: midnightblue;
-    letter-spacing: 1px;
-    text-align: center;
-    float: left;
-}
-
-.font:visited{
-    color: midnightblue;
-}
-
-.button1{
-    width: 50%;
-    height: 70px;
-    float: right;
-    text-align: center;
-}
-
-.button2{
-    width: 80%;
-    height: 80%;
-    border: none;
-    border-radius: 5px;
-    float: right;
-}
-
-
-*/
 .font{
     width: 50%;
     height: 70px;
@@ -153,14 +76,4 @@ div, form{
 .table{
     border-collapse: collapse;
     border: 1px solid black;
-}
- 
-.th1{
-    width: 50%;
-    height: auto;
-}
-
-.th2, .th3, .th4{
-    width: 16.5%;
-    height: 100px;
 }

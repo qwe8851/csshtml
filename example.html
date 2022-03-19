@@ -4,50 +4,34 @@
         <meta charset="UTF-8">
         <title>Document</title>
         <link href = "css/example.css" rel="stylesheet">
-    </head>
+    </head>  
     <body>
         <div>
-            <div class="content">
-                <div class="content2">
-                    <div class="title">Your shopping cart</div>
-                        <table class="table">
-                            <thead>
-                                <tr>
-                                    <th class="th1"><p>ITEM</p></th>
-                                    <th class="th2"><p>AMOUNT</p></th>
-                                    <th class="th3"><p>PRICE</p></th>
-                                    <th class="th4"><p>TOTAL</p></th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td>1</td>
-                                    <td>1</td>
-                                    <td>1</td>
-                                </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>2</td>
-                                    <td>2</td>
-                                    <td>2</td>
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td>3</td>
-                                    <td>3</td>
-                                    <td>3</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    <!-- <div class="font">
-                        <a href="http://naver.com">Edit your shopping cart</a>
-                    </div>
-                    <div class="button1">
-                        <button class="button2">Choose payment method</button>
-                    </div> -->
-
-                    
+            <div class="cart-background">
+                <h3>Your shopping cart</h3>
+                <table class="cart-table">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th class="cell-long">ITEM</th>
+                            <th>AMOUNT</th>
+                            <th>PRICE</th>
+                            <th>TOTAL</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="img/shoes.jpg" width="50px"></td>
+                            <td>카메라</td>
+                            <td>1</td>
+                            <td>7000</td>
+                            <td>7000</td>
+                        </tr>
+                        <tr>
+                            <td colspan="5" style="text-align: right;">총가격 : 7000</td>
+                        </tr>
+                    </tbody>
+                </table>
                     <div class="button1">
                         <a href="http://naver.com" class="font">Edit your shopping cart</a>
                         <button class="button2">Choose payment method</button>

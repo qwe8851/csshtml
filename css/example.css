@@ -1,7 +1,3 @@
-/* td, th{
-    border: 1px solid black;
-} */
-
 .cart-background{
     width: 100%;
     background-color :#c2d3de;
@@ -28,52 +24,47 @@
     width: 700px;
 }
 
-.title{
-    width: 100%;
-    height: 60px;
-    font-size: 30px;
-    font-weight: 500;
-    color: midnightblue;
-    background-color: rebeccapurple;
-    margin-top: 20px;
-    float: left;
-}
-
-
-.font{
-    width: 50%;
-    height: 70px;
-    line-height: 70px;
-    color: midnightblue;
-    letter-spacing: 1px;
-    text-align: left;
-    float: left;
-}
-
-.font:visited{
-    color: midnightblue;
-}
-
-.button1{
-    width: 100%;
-    height: 70px;
-    float: right;
-    text-align: center;
-}
-
-.button2{
-    width: 50%;
-    height: 80%;
+.btn{
+    padding: 15px;
+    font-size: 20px;
     border: none;
-    border-radius: 5px;
-    float: right;
-    margin-top: 7px;
-    font-size: medium;
-    background-color: rgb(26, 53, 129);
-    color: aliceblue;
+    border-radius: 10px;
+    background-color: coral;
+    color: white;
+    /* 커서변경 */
+    cursor: pointer;
 }
 
-.table{
-    border-collapse: collapse;
-    border: 1px solid black;
+/* 넣을 때 순서가 중요!
+hover → focus → active 순으로 넣어야 함 */
+.btn:hover{
+    /* 커서를 올리면 chocolate색으로 변경 */
+    background-color: chocolate;
+}
+.btn:focus{
+    /* 커서가 찍혀있을때 스타일 */
+    background-color: gray;
+}
+.btn:active{
+    /* 버튼을 누르면..! */
+    background-color: brown;
+    border: 2px solid black;
+}
+
+.input-test{
+    font-size: 20px;
+}
+.input-test:focus{
+    border-bottom: 2px solid red;
+}
+
+.custom-link{
+    /* 링크의 밑줄을 제거 */
+    text-decoration: none;
+}
+.custom-link:link{
+    color: violet;
+}
+.custom-link:visited{
+    color: black;
 }

@@ -10,6 +10,22 @@
     font-size: 20px;
 }
 
+@font-face {
+    font-family: '나눔스퀘어';
+    src: url(../font/NanumSquareR.ttf);
+    /* woff : 사이트 용량, 트래픽이 줄어듦
+    src: url(../font/NanumSquareR.woff); */
+}
+
+body{
+    margin: 0px;
+    /* 'gulim'이 시스템에 설치가 되어 있지 않거나 오류 시 'gotum' 폰트로! */
+    font-family: 'gulim', 'gotum', '나눔스퀘어';
+    /* font-weight를 사용하게 되면 글씨가 살짝 이상해 짐
+    굵은 폰트를 따로 적용해야 예뻐짐 */
+    font-weight: 900;
+    transform : rotate(0.04deg);
+}
 
 .cart-background{
     width: 100%;

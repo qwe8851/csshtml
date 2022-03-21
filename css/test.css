@@ -74,3 +74,22 @@ input[type=text]{
     border: 1px solid black;
     border-radius: 5px;
 }
+
+.flex-item{
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    margin: 5px;
+}
+
+.flex-container{
+    /* 가로 배치 */
+    display: flex;
+    /* 세로 배치 /가로는 row */
+    flex-direction: column;
+    /* 가운데 정렬 */
+    justify-content: center;
+    /* 가로폭이 흘러 넘치는 항목들 줄바꿈 */
+    flex-wrap: wrap;
+}
+

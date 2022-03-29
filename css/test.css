@@ -105,28 +105,39 @@ input[type=text]{
     margin-right: 10px;
 }
 
-.test{
-    width: 20rem;
-    height: 50vh;
-    background: grey;
+.product-container{
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.product-container div{
+    float: left;
+    width: 25%;  /* 4개 */
+    text-align: center;
 }
 
 
 /* 1200px, 992px, 768px, 576px */
 @media screen and (max-width:1200px){
     .main-title{
-        font-size: 30px;
+        font-size: 30px
     }
-    .nav-item{
-        font-size: 12px;
+    .product-container div{
+        width: 50%;  /* 2개 */
+    }
+    .product-container{
+        max-width: 600px;
     }
 }
 
 @media screen and (max-width:768px){
     .main-title{
-        font-size: 20px;
+        font-size: 20px
     }
-    .nav-item{
-        font-size: 8px;
+    .product-container div{
+        width: 100%;  /* 1개 */
     }
 }

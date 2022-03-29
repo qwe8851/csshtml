@@ -76,7 +76,7 @@ input[type=text]{
 }
 
 .flex-item{
-    width: 100px;
+    width: 200px;
     height: 100px;
     background-color: grey;
     margin: 5px;
@@ -85,11 +85,48 @@ input[type=text]{
 .flex-container{
     /* 가로 배치 */
     display: flex;
-    /* 세로 배치 /가로는 row */
+    /* 세로 배치 /가로는 row
     flex-direction: column;
-    /* 가운데 정렬 */
+    가운데 정렬
     justify-content: center;
-    /* 가로폭이 흘러 넘치는 항목들 줄바꿈 */
-    flex-wrap: wrap;
+    가로폭이 흘러 넘치는 항목들 줄바꿈 */
+    /* flex-wrap: wrap; */
+    align-items: flex-start;
 }
 
+.nav-container{
+    display: flex;
+    height: 40px;
+    align-items: center;
+    padding: 5px;
+}
+
+.nav-item{
+    margin-right: 10px;
+}
+
+.test{
+    width: 20rem;
+    height: 50vh;
+    background: grey;
+}
+
+
+/* 1200px, 992px, 768px, 576px */
+@media screen and (max-width:1200px){
+    .main-title{
+        font-size: 30px;
+    }
+    .nav-item{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .main-title{
+        font-size: 20px;
+    }
+    .nav-item{
+        font-size: 8px;
+    }
+}

@@ -119,6 +119,17 @@ input[type=text]{
     text-align: center;
 }
 
+.product-container i{
+    background-color: burlywood;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    padding-top: 25px;
+    box-sizing: border-box;
+    color: white;
+    margin-top: 20px;
+}
+
 
 /* 1200px, 992px, 768px, 576px */
 @media screen and (max-width:1200px){

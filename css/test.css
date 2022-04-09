@@ -130,6 +130,47 @@ input[type=text]{
     margin-top: 20px;
 }
 
+.shop-bg{
+    background-color: #eee;
+    padding: 20px;
+}
+
+.shop-container{
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.shop-item{
+    width: 33%;
+    padding: 10px;
+}
+
+.shop-item img{
+    width: 100%;
+    display: block;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    /* opacity를 0 : 투명, 1 : 불투명 */
+    /* 시작스타일 opacity: 0, 최종스타일 opacity: 1 */
+    opacity: 0;
+    /* 위에 있는 스타일들이 변경될 때 1초에 걸쳐 변경 */
+    transition: all 1s;
+}
+
+.overlay:hover{
+    opacity: 1;
+}
+
+
+
+
+
 
 /* 1200px, 992px, 768px, 576px */
 @media screen and (max-width:1200px){

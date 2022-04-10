@@ -161,11 +161,32 @@ input[type=text]{
     opacity: 0;
     /* 위에 있는 스타일들이 변경될 때 1초에 걸쳐 변경 */
     transition: all 1s;
+    color: white;
 }
 
 .overlay:hover{
     opacity: 1;
 }
+
+.overlay-wrap{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.overlay-wrap:hover .overlay-black{
+    margin-top: 50%;
+}
+
+.overlay-black{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-top: 100%;
+    transition: all 1s;
+}
+
 
 
 

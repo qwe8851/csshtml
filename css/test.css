@@ -14,7 +14,7 @@ body{
     background-image: url(../img/shoes.jpg);
     /* ../ ←상위폴더로 이동하라는 뜻 */
     background-size: cover;
-    background-repeat:  no-repeat;
+    background-repeat: no-repeat;
     background-position: center;
     padding: 1px;
 }

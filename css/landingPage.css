@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+  }
+  div {
+    box-sizing: border-box;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  h4 {
+    font-size: 22px;
+  }
+
+.header{
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(rgb(91, 162, 255), rgb(90, 100, 200));
+}
+
+.header-text{
+    width: 50%;
+    height: 100%;
+    float: left;
+    color: white;
+    padding-top: 60px;
+    padding-left: 10%;
+}
+
+.button{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(60, 60, 60);
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+
+.header-img{
+    width: 50%;
+    height: 100%;
+    float: right;
+    padding-top: 5%;
+    padding-left: 10%;
+}
+
+.header-img img{
+    width: auto;
+    height: 100%;
+}
+
+.container-text{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.fw-600{
+    font-weight: 600;
+}
+
+
+.container2{
+    width: 100%;
+    height: 450px;
+    background-color: rgb(90, 100, 200);
+    color: white;
+    padding: 10%;
+    padding-top:20px;
+}
+
+.items div{
+    float: left;
+    min-width: 220px;
+    padding: 10px;
+    width: 25%;  /* 4개 */
+    text-align: center;
+}
+
+.items i{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    color: rgb(90, 100, 200);
+    padding: 25px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+.portfolio{
+    width: 100%;
+    padding: 10%;
+    padding-top: 10px;
+}
+
+.portfolio img{
+    width: 50%;
+    float: left;
+}
+
+.portfolio div{
+    text-align: left;
+}
+
+.footer{
+}
+
+.foot-img{
+    background-color: rgb(90, 100, 200);
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 1200px, 992px, 768px, 576px */
+@media screen and (max-width:1200px){
+
+}
+
+@media screen and (max-width:768px){
+
+}

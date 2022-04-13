@@ -1,53 +1,71 @@
 body {
     margin: 0;
-  }
-  div {
+}
+div {
     box-sizing: border-box;
-  }
-  h1 {
+}
+h1 {
     font-size: 30px;
-  }
-  h4 {
+}
+h4 {
     font-size: 22px;
+}
+
+.main-background{
+    /* linear-gradient(그레이디언트 방향, 시작 색, 끝 색) */
+    background-image: linear-gradient(to bottom, #499add, #4e61c0);
+    height: 550px;
+    padding: 20px;
+    color: white;
+}
+
+.main-container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.main-text{
+    float: left;
+    margin-top: 50px;
+}
+
+.main-iphone{
+    width: 400px;
+    float: right;
+    padding-top: 95px;
+}
+
+.btn {
+    padding: 15px 20px;
+    font-size: 16px;
+    font-family: 'nanumsquare';
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
   }
 
-.header{
-    width: 100%;
-    height: 500px;
-    background: linear-gradient(rgb(91, 162, 255), rgb(90, 100, 200));
-}
-
-.header-text{
-    width: 50%;
-    height: 100%;
-    float: left;
+.btn-black{
+    background-color: #444;
     color: white;
-    padding-top: 60px;
-    padding-left: 10%;
 }
 
-.button{
-    width: 100px;
-    height: 40px;
-    background-color: rgb(60, 60, 60);
-    color: white;
-    border: 0;
-    border-radius: 5px;
+.btn-black:hover{
+    background-color: rgb(85, 85, 85);
 }
 
-.header-img{
-    width: 50%;
-    height: 100%;
-    float: right;
-    padding-top: 5%;
-    padding-left: 10%;
+.btn-black:active{
+    background-color: rgb(50, 50, 50);
 }
 
-.header-img img{
-    width: auto;
-    height: 100%;
-}
 
+
+
+
+
+
+
+/* --- */
 .container-text{
     width: 100%;
     height: auto;
@@ -104,9 +122,6 @@ body {
     text-align: left;
 }
 
-.footer{
-}
-
 .foot-img{
     background-color: rgb(90, 100, 200);
     width: 70px;
@@ -145,8 +160,20 @@ body {
 
 
 /* 1200px, 992px, 768px, 576px */
-@media screen and (max-width:1200px){
+@media screen and (max-width:992px){
+    .main-iphone{
+        width: 260px;
+        display: block;
+        float: none;
+        margin: auto;
+        margin-top: 42px;
+    }
 
+    .main-text{
+        float: none;
+        margin-top: 50px;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width:768px){
